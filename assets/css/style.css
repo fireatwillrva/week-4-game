@@ -1,0 +1,125 @@
+/* Backround image */
+body {
+	background-image: url("../images/space.jpg");
+	background-attachment: fixed;
+	margin-left: 50px;
+}
+
+/* Title text and box */
+#title {
+	padding: 20px;
+	background-color: darkorange;
+	color: white;
+	float: left;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: grey;
+	margin-top: 20px;
+}
+
+/* Instructions text and box */
+#instructions {
+	font-family: arial;
+	color: forestgreen;
+	font-weight: bold;
+	background-color: antiquewhite;
+	float: left;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: grey;
+	padding: 30px 20px 20px 20px;
+}
+
+/* "Number to Guess:" text and box */
+#target {
+	color: slateblue;
+	font-family: arial;
+	font-weight: bold;
+	background-color: yellowgreen;
+	float: left;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: grey;
+	margin-left: 15px;
+	padding-top: 10px;
+}
+
+/* Target number text */
+#targetNumber {
+	color: purple;
+	font-size: 40px;
+}
+
+/* Wins counter text */
+#wins {
+	color: navy;
+	font-weight: bold;
+	font-family: arial;
+}
+
+/* Losses counter text */
+#losses {
+	color: navy;
+	font-weight: bold;
+	font-family: arial;
+}
+
+/* Box for wins and losses counters */
+#counter-back  {
+	background-color: powderblue;
+    float: left;
+    margin-left: 20px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: grey;
+    padding: 25px;
+}
+
+/* Crystal images */
+.crystal-img {
+	height: 150px;
+	width: 100px;
+	padding-left: 40px;
+}
+
+/* Boxes for crystal images */
+.back {
+	background-color: white;
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin-right: 20px;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: grey;
+	margin-left: 15px;
+}
+
+/* "Your total score is:" text and box */
+#score {
+	color: white;
+	font-weight: bold;
+	font-family: arial;
+	background-color: teal;
+	float: left;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: grey;
+	padding-top: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-left: 15px;	
+}
+
+/* Total score counter text and box */
+#yourScore {
+	padding: 10px 190px 75px 35px;
+	background-color: teal;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: grey;
+	margin-bottom: 75px;
+	color: white;
+	font-family: arial;
+	font-size: 40px;
+}
